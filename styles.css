@@ -1,0 +1,54 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    margin-top: 0;
+    width: 100%;
+    max-width: 800px;
+    /* Adjust as needed */
+}
+
+#converterForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.form-group-inline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-group-inline label {
+    margin-right: 15px;
+    /* Space between label and dropdown */
+    white-space: nowrap;
+    /* Prevents text wrapping */
+}
+
+.form-group-inline select {
+    flex: 2;
+    /* Make the select longer relative to the label */
+    min-width: 200px;
+    /* Minimum width of the select dropdown */
+}
+
+#result {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2em;
+    width: 500px;
+    margin-top: 20px;
+}
